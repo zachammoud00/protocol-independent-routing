@@ -13,8 +13,8 @@ To complete these labs I will use a combination of both physical and virtual dev
 - EVE-NG Community Edition (version: )
 - Juniper vRouter (version: )
 - Juniper vSwitch (version: )
-- 1 x Juniper SRX-100
-- 1 x Juniper SRX-110H
-- 1 x Juniper EX2200
+- 1 x Juniper SRX-100 (version: )
+- 1 x Juniper SRX-110H (version: )
+- 1 x Juniper EX2200 (version: )
 
 
