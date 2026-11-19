@@ -1,8 +1,17 @@
 # Lab 01 Static Routing
 
-# Overview
+## Scenario
 
-# Equipment
+## Equipment
 
-# Topology
+- EVE-NG Community Edition (version: )
+- 3 x Juniper vRouters
+
+## Topology
+
+![lab01 topology](/images/lab01-topology.png)
+
+## Failure Scenarios
+
+
 
