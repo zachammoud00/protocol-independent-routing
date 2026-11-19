@@ -2,6 +2,8 @@
 
 ## Scenario
 
+
+
 ## Equipment
 
 - EVE-NG Community Edition (version: )
@@ -11,7 +13,11 @@
 
 ![lab01 topology](/images/lab01-topology.png)
 
+## IP Scheme 
+
+
+
 ## Failure Scenarios
 
-
+## Improvements
 
