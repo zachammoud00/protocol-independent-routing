@@ -5,7 +5,7 @@
 ## Equipment
 
 - EVE-NG Community Edition (version: )
-- 3 x Juniper vRouters
+- 3 x Juniper vRouters (version: ) 
 
 ## Topology
 
