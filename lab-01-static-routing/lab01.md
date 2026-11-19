@@ -14,7 +14,7 @@
 ![lab01 topology](/images/lab01-topology.png)
 
 ## IP Scheme 
-
+![lab01 IP scheme](/images/lab01-ip-scheme.png)
 
 
 ## Failure Scenarios
