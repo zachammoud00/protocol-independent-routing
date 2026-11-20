@@ -15,6 +15,7 @@ It will include a base configuration which does not use aggregate routes which w
 
 This topology contains four customer edge routers which are connected to their ISPs access router, which is connected to a core router. The main goal will be to summarise the customer prefixes using an aggregate route to be advertised up to the core. 
 
+![lab02 topology](./images/topology.png)
 
 ## IP Scheme
 
