@@ -19,4 +19,8 @@ This topology contains four customer edge routers which are connected to their I
 
 ## IP Scheme
 
+![lab02 ip scheme](./images/ip-scheme.png)
+
+
+
 ## Lab Walkthrough
