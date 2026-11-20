@@ -2,7 +2,7 @@
 
 ## Overview
 
-This home lab aims to explore static routing including back-up static routes, route selection and recursive routes. It will also include several failure scenarios which will show my methodology for diagnosing and resolving network faults. 
+This lab aims to explore static routing including configuring next-hop routes, back-up static routes and route selection. 
 
 The configuration for each router is supplied in this repository which can be found within the configuration/ directory. 
 
@@ -21,12 +21,24 @@ The configuration for each router is supplied in this repository which can be fo
 
 ## Lab Walkthrough
 
-1. For the purposes of this lab it should be noted that the link between R1 and R3 will be configured but disabled, therefore at the beginning, the only route between R1 and R3 is through R2.
-
-2. Before beginning, there was some basic administration tasks configured on the router's which included setting a root authentication password, changing the hostname and creating a local user.
-
-3. After this the router's were all configured according to the topology and IP scheme provided above which included configuring interfaces, creating a static route's (only through R1-R2-R3 at this point, avoiding R1 to R3) and setting up the VPC devices. The image provided below shows the routing tables for R1, R2 and R3 at this point:
-
-![R1 R2 R3 route tables](/images/lab01-route-tables.png)
+1. **Initial configuration**
+   Basic router administration tasks, interface configuration, IP addressing and static route configuration.
 
 
+2. **Initial connectivity**
+   Analysing routes between the LANs by inspecting the routing tables on all three routers:
+
+   ![R1 R2 R3 route tables](/images/lab01-route-tables.png)
+
+  This shows that the only route between the R1 LAN and R3 LAN is through R2 - as the link between R1 and R3 is disabled at first. 
+
+3. **Verify connectivity**
+   Verifying the connectivity between R1 LAN and R3 LAN using the ping operation:
+
+   (insert image here at a later date)
+
+4. **Link failure scenario**
+   This explores the scenario where the link between between R2 and R3 fail's:
+
+   ![R2 link failure route table](/images/lab01-link-down.png)
+   
