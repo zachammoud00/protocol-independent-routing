@@ -4,7 +4,7 @@
 
 This lab aims to explore aggregate routes and how these specially crafted routes can be used to summarise multiple routes into a single route advertisement.
 
-It will include a base configuration which does not use aggregate routes which will act as a point of comparison to the configuration which includes route aggregation.  
+It will include a base configuration which does not use aggregate routes which will act as a point of comparison to the configuration which includes route aggregation - the primary difference will be highlighted through the routing table.
 
 ## Equipment
 
