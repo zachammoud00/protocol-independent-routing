@@ -60,3 +60,13 @@ Instead of configuring two static next-hop routes with equal preferences, the ro
 
 If the direct R1–R3 link fails, R1 will use the qualified-next-hop through R2 as an alternative path. Once the direct link is restored, R1 will revert to using the direct route due to its lower preference value.
 
+## Further Investigation 
+
+While configuring this lab I encountered some interesting behaviour when pinging the end devices connected to the R1 LAN and R3 LAN.
+
+When I first configured this lab I forgot to include a gateway on both VPCs, which led to some interesting behaviour. When I tried to ping PC2 from R1, it worked, although there was a large delay in time for each individual ping request, which only increased with each ping sent.
+
+After configuring the gateways on both VPCs, the ping requests returned to normal response times.
+
+Therefore, in a future lab I will explore why the ping request was still successful, but experienced such a large delay, even though there was no gateway configured on the PC devices.
+
